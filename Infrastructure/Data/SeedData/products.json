@@ -1,0 +1,56 @@
+[
+  {
+    "Name": "Кожаные ботильоны Black DIVA",
+    "Description": "Профессиональные ботильоны Black Diva разработаны брендом Angels One Heels специально для опытных танцоров High Heels. Хилсы выполнены из натуральной кожи с литым каблуком, что обеспечивает устойчивость и комфорт в танце.",
+    "Price": 12000,
+    "PictureUrl": "/images/products/sb-ang1.png",
+    "Type": "Botiloni",
+    "Brand": "Angels One Heels",
+    "QuantityInStock": 10
+  },
+  {
+    "Name": "Танцевальные туфли для сальсы Salsa Star",
+    "Description": "Эти стильные туфли идеально подходят для сальсы и других латинских танцев. Обувь выполнена из мягкой замши, что обеспечивает отличное сцепление с полом.",
+    "Price": 8500,
+    "PictureUrl": "/images/products/salsa-star.png",
+    "Type": "Tufli",
+    "Brand": "Salsa Star",
+    "QuantityInStock": 15
+  },
+  {
+    "Name": "Леггинсы для танцев DanceFit",
+    "Description": "Удобные леггинсы DanceFit созданы для максимального комфорта во время репетиций. Эластичный материал позволяет свободно двигаться и подчеркивает фигуру.",
+    "Price": 3000,
+    "PictureUrl": "/images/products/dancefit-leggings.png",
+    "Type": "Legginsy",
+    "Brand": "DanceFit",
+    "QuantityInStock": 20
+  },
+  {
+    "Name": "Футболка для танцев MoveOn",
+    "Description": "Стильная футболка MoveOn из дышащего материала, идеально подходит для тренировок и выступлений. Яркие цвета и современный дизайн привлекают внимание.",
+    "Price": 2000,
+    "PictureUrl": "/images/products/moveon-tshirt.png",
+    "Type": "Futbolka",
+    "Brand": "MoveOn",
+    "QuantityInStock": 25
+  },
+  {
+    "Name": "Танцевальная юбка Flare Dance",
+    "Description": "Эта юбка с расклешенным кроем добавит игривости вашему образу. Идеально подходит для классических и современных танцев.",
+    "Price": 4500,
+    "PictureUrl": "/images/products/flare-dance-skirt.png",
+    "Type": "Yubka",
+    "Brand": "Flare Dance",
+    "QuantityInStock": 12
+  },
+  {
+    "Name": "Ремень для танцев DanceBelt",
+    "Description": "Удобный и стильный ремень DanceBelt, который поможет сохранить вашу одежду на месте во время активных движений.",
+    "Price": 1500,
+    "PictureUrl": "/images/products/dancebelt.png",
+    "Type": "Remen",
+    "Brand": "DanceBelt",
+    "QuantityInStock": 30
+  }
+]

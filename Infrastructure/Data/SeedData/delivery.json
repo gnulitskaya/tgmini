@@ -1,0 +1,32 @@
+[
+  {
+    "ShortName": "СДЭК",
+    "Description": "Экспресс-доставка по России",
+    "DeliveryTime": "1-3 дня",
+    "Price": 300
+  },
+  {
+    "ShortName": "Почта России",
+    "Description": "Стандартная доставка с отслеживанием",
+    "DeliveryTime": "3-7 дней",
+    "Price": 150
+  },
+  {
+    "ShortName": "Доставка Яндекс.Такси",
+    "Description": "Мгновенная доставка по городу",
+    "DeliveryTime": "1 час",
+    "Price": 500
+  },
+  {
+    "ShortName": "Boxberry",
+    "Description": "Удобные пункты выдачи и быстрая доставка",
+    "DeliveryTime": "2-4 дня",
+    "Price": 250
+  },
+  {
+    "ShortName": "DPD",
+    "Description": "Доставка по России и в страны СНГ",
+    "DeliveryTime": "2-5 дней",
+    "Price": 400
+  }
+]
