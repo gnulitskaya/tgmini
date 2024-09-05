@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddCors();
 builder.Services.AddDbContext<StoreContext>(opt => {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
@@ -16,6 +17,10 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepositor
 var app = builder.Build();
 
 app.MapControllers();
+app.UseCors(x => x.AllowAnyHeader()
+    .AllowAnyMethod()
+    .AllowCredentials()
+    .WithOrigins("https://localhost:4200"));
 
 try
 {
