@@ -16,7 +16,7 @@ import { Product } from '../../../../shared/models/product';
     MatIcon,
     CurrencyPipe,
     MatButton,
-    RouterLink
+    RouterLink,
   ],
   templateUrl: './product-item.component.html',
   styleUrl: './product-item.component.scss'
