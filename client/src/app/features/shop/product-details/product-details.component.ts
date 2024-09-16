@@ -1,7 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ShopService } from '../../../../core/services/shop.service';
-import { Product } from '../../../../shared/models/product';
+import { ShopService } from '../../../core/services/shop.service';
+import { Product } from '../../../shared/models/product';
 import { CurrencyPipe } from '@angular/common';
 import { MatButton } from '@angular/material/button';
 import { MatDivider } from '@angular/material/divider';
