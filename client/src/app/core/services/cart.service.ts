@@ -1,4 +1,4 @@
-import { inject, Injectable, signal } from '@angular/core';
+import { computed, inject, Injectable, signal } from '@angular/core';
 import { environment } from '../../../environments/environment';
 import { HttpClient } from '@angular/common/http';
 import { Cart, CartItem } from '../../shared/models/cart';
@@ -12,6 +12,9 @@ export class CartService {
   baseUrl = environment.apiUrl;
   private http = inject(HttpClient);
   cart = signal<Cart | null>(null);
+  itemsCount = computed(() => {
+    return this.cart()?.items.reduce((acc, item) => acc + item.quantity, 0);
+  })
   constructor() { }
 
   getCart(id: string) {
