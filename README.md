@@ -1,33 +1,56 @@
-Setting up the developer environment
+# Описание проекта TGMini
+<img width="1289" alt="image" src="https://github.com/user-attachments/assets/d1960b4d-e959-4cc6-bdfa-d904ca03c49c" />
 
-Creating a multi project .net core application using the dotnet CLI
+## Технологический стек
+- Backend: ASP.NET Core 8.0
+- Frontend: Angular 18
+- База данных: SQL Server (через Docker)
+- Кэширование: Redis
+- Стилизация: Angular Material + Tailwind CSS
 
-Creating a client side front-end Angular UI for the store using the Angular CLI
+## Архитектура
+Проект построен на основе современной многоуровневой архитектуры:
+- API слой (REST API)
+- Core слой (бизнес-логика и интерфейсы)
+- Infrastructure слой (работа с данными)
+- Client слой (Angular приложение)
 
-Learn how to use the Repository, Unit of Work and specification pattern in .net core
+## Ключевые особенности
+1. **Микросервисная архитектура**
+   - Использование Docker для баз данных
+   - Независимое масштабирование компонентов
 
-Using multiple DbContext as context boundaries
+2. **Современный фронтенд**
+   - Компонентный подход
+   - Адаптивный дизайн
+   - Оптимизированная производительность
 
-Using ASP.NET Identity for login and registration
+3. **Безопасность**
+   - HTTPS протокол
+   - Защита от CSRF
+   - Валидация данных
 
-Using the angular modules to create lazy loaded routes.
+4. **Производительность**
+   - Кэширование через Redis
+   - Ленивая загрузка модулей
+   - Пагинация данных
 
-Building a great looking UI using Angular Material and Tailwind
+5. **Функционал магазина**
+   - Каталог товаров с фильтрацией
+   - Корзина покупок
+   - Система доставки
+   - Управление заказами
 
-Making reusable form components using Angular Reactive forms
+## Масштабируемость
+Проект спроектирован с учётом возможности горизонтального масштабирования и легкого добавления новых функций благодаря модульной архитектуре.
 
-Paging, Sorting, Searching and Filtering
+## Процесс разработки
+- Система контроля версий: Git
+- CI/CD: готовность к развертыванию в Azure
+- Тестирование: модульные и интеграционные тесты
 
-Using Redis to store the shopping basket
-
-Creating orders from the shopping basket
-
-Accepting payments via Stripe using the new EU standards for 3D secure
-
-Publishing the application to Azure
-
-SignalR
-
-Role based authentication
-
-Many more things as well
+## Дополнительные преимущества
+- Многоязычность (подготовка к i18n)
+- SEO-оптимизация
+- Аналитика и мониторинг
+- Документированный код
